@@ -3,6 +3,7 @@ import Header from './Header'
 import Navigation from './Navigation'
 import Headshot from './Headshot'
 import About from './About'
+import Mission from './Mission'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <Headshot />
       <About />
+      <Mission />
     </div>
   )
 }
