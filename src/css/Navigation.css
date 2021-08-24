@@ -1,0 +1,44 @@
+.navigation {
+    margin-top: 30px;
+}
+
+.logo {
+    width      : 50px;
+    margin-left: 5vw;
+}
+
+.logoText {
+    display       : inline;
+    color         : #eb4034;
+    font-size     : 18px;
+    margin-left   : 10px;
+    vertical-align: 18px;
+}
+
+.navBar {
+    display       : inline;
+    margin-left   : 75px;
+    box-shadow    : 0 0 20px #636363;
+    border-radius : 19px;
+    padding       : 12px 5px;
+    vertical-align: 18px;
+    padding-left  : 22px;
+}
+
+.navItem {
+    display       : inline;
+    margin-right  : 30px;
+    font-size     : 18px;
+    transition    : all 0.25s ease-in-out;
+    border-bottom : 2px solid transparent;
+    padding-bottom: 9px;
+}
+
+.navItem:hover {
+    border-color: #000;
+}
+
+.linkText {
+    text-decoration: none;
+    color          : #eb4034;
+}

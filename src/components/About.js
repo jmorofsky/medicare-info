@@ -1,30 +1,14 @@
-import '../css/Header.css'
-import shader from '../images/shader.png'
+import '../css/About.css'
 
-function Header() {
-    return (
-        <div className='header'>
-            <img src={shader} alt='' className='shader'></img>
-            <h1 className='title'>STUCK ON MEDICARE?</h1>
-            <h2 className='subtitle'>LET'S FIGURE IT OUT TOGETHER</h2>
-
-            <p className='intro'>
-                I'm Meghan Morofsky and I've been helping people find a plan that fits their
-                needs for years. </p>
-            <p className='intro'>
-                I'll help you review all your Medicare options so you can make an
-                informed decision about your coverage.
-            </p>
-            <p className='intro'>Let's get started by clicking the button below!</p>
-
-            <a href='#contact' className='contactButton'><strong>Get Started ➞</strong></a>
-
-            <div style={{ overflow: 'hidden', marginTop: '195px'}}>
+function About() {
+    return(
+        <div className='about' id='about'>
+            <div style={{ overflow: 'hidden' }}>
                 <svg
                     preserveAspectRatio="none"
                     viewBox="0 0 1200 120"
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{ fill: '#ffffff', width: '112%', height: 150, transform: 'rotate(180deg) scaleX(-1)' }}
+                    style={{ fill: '#ffffff', width: '112%', height: 150, transform: 'scaleX(-1)' }}
                 >
                     <path
                         d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 
@@ -43,8 +27,10 @@ function Header() {
                     112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" />
                 </svg>
             </div>
+
+            <h1 className='headingText' style={{marginLeft: '5vw'}}>ABOUT MEGHAN</h1>
         </div>
     )
 }
 
-export default Header
+export default About
