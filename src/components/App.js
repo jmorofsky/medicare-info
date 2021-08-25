@@ -6,6 +6,8 @@ import About from './About'
 import Mission from './Mission'
 import Medicare from './Medicare'
 import Quote from './Quote'
+import Parts from './Parts'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Mission />
       <Medicare />
       <Quote />
+      <Parts />
+      <Contact />
     </div>
   )
 }

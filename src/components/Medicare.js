@@ -2,7 +2,7 @@ import '../css/Medicare.css'
 
 function Medicare() {
     return (
-        <div className='medicare'>
+        <div className='medicare' id='medicare'>
             <div style={{ overflow: 'hidden' }}>
                 <svg
                     preserveAspectRatio="none"
