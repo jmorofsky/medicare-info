@@ -24,3 +24,8 @@ div {
   font-family: Roboto;
   src: url("../fonts/Roboto/Roboto-Regular.ttf");
 }
+
+@font-face {
+  font-family: Eurostile;
+  src: url("../fonts/Eurostile/EurostileRound-Regular.ttf");
+}

@@ -1,0 +1,50 @@
+.quote {
+    display: block;
+    color: #575757;
+    font-size: 16px;
+    margin: 40px auto 0;
+    max-width: 800px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.quote::before {
+    font-size: 100px;
+    content: '\201C';
+    line-height: 0;
+    vertical-align: -43px;
+    font-family: Eurostile;
+}
+
+.quote::after {
+    font-size: 100px;
+    content: '\201D';
+    line-height: 0;
+    vertical-align: -58px;
+    font-family: Eurostile;
+}
+
+.quoteContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.quotee {
+    display: flex;
+    flex-direction: column;
+}
+
+.headshotSmall {
+    max-width: 70px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.quoteeText {
+    color: #575757;
+    font-size: 16px;
+    line-height: 5px;
+    margin-bottom: 0;
+}
