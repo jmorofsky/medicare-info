@@ -1,8 +1,8 @@
 .header {
-    background-image: url('../images/header-bg.jpg');
+    background-image : url('../images/header-bg.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    height          : 1131px;
+    background-size  : cover;
+    height           : 1131px;
 }
 
 .shader {
@@ -67,4 +67,37 @@
 .contactButton:hover {
     background-color: #e0829e;
     color           : #fff;
+}
+
+.header-divider {
+    margin-top: 195px;
+}
+
+@media screen and (max-width: 850px) {
+    .title {
+        max-width  : 99%;
+        line-height: 50px;
+    }
+
+    .header-divider {
+        margin-top: 95px;
+    }
+}
+
+@media screen and (max-width: 771px) {
+    .subtitle {
+        line-height  : 40px;
+        margin-top   : 14px;
+        margin-bottom: 14px;
+    }
+
+    .header-divider {
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .header-divider {
+        margin-top: 25px;
+    }
 }

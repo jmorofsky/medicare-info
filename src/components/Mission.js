@@ -9,7 +9,7 @@ function Mission() {
                     preserveAspectRatio="none"
                     viewBox="0 0 1200 120"
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{ fill: '#3390b8', width: '100%', height: 167, }}
+                    style={{ fill: '#3390b8', width: '100%', height: 167, marginTop: '-4px' }}
                 >
                     <path
                         d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 
@@ -29,7 +29,7 @@ function Mission() {
                 </svg>
             </div>
 
-            <h1 className='headingText' style={{ margin: '25px auto 0' }}>MY MISSION</h1>
+            <h1 className='headingText' style={{ margin: '50px auto 0' }}>MY MISSION</h1>
 
             <q className='quote'>Trying to navigate the world of health insurance alone as a 65 year old can be a
                 confusing and frustrating process. It is my mission as your Medicare specialist to ensure that your

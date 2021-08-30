@@ -19,7 +19,7 @@ function Header() {
 
             <a href='#contact' className='contactButton'><strong>Get Started ➞</strong></a>
 
-            <div style={{ overflow: 'hidden', marginTop: '195px'}}>
+            <div style={{ overflow: 'hidden' }} className='header-divider'>
                 <svg
                     preserveAspectRatio="none"
                     viewBox="0 0 1200 120"

@@ -32,7 +32,7 @@ function Contact() {
                 <h1 className='contactTitle'>Contact Me</h1>
                 <p className='contactText'>Give me a call any time at <a href='tel:+19548496854' className='phone'>
                     (954) 849-6854 </a> for a free consultation and I’ll happily answer any questions you might have
-                    relating to your Medicare supplements.
+                    regarding your Medicare supplements.
                 </p>
 
                 <div className='contact-info'>
@@ -50,9 +50,9 @@ function Contact() {
                         </a></p>
                         <p className='hoursText'><a href='mailto:morofskymeghan@yahoo.com' className='phone'
                             style={{ color: '#575757' }}>
-                            ✉ morofskymeghan@yahoo.com
+                            ✉ morofsky.meghan@yahoo.com
                         </a></p>
-                        <p className='hoursText'>📍 2000 Banks Road Suite 209 Margate Florida 33063</p>
+                        <p className='hoursText'> 📍 2000 Banks Road Suite 209 Margate Florida 33063</p>
                     </div>
                 </div>
             </div>

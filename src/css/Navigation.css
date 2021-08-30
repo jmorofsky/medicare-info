@@ -16,13 +16,18 @@
 }
 
 .navBar {
-    display       : inline;
-    margin-left   : 75px;
-    box-shadow    : 0 0 20px #636363;
-    border-radius : 19px;
-    padding       : 12px 5px;
-    vertical-align: 18px;
-    padding-left  : 22px;
+    display            : inline;
+    position           : absolute;
+    right              : 5vw;
+    margin-left        : 75px;
+    box-shadow         : 0 0 20px #636363;
+    border-radius      : 19px;
+    padding            : 12px 5px;
+    vertical-align     : 18px;
+    padding-left       : 22px;
+    transition         : all ease-in-out 0.25s;
+    transition-property: width, opacity;
+    max-height         : 22px;
 }
 
 .navItem {
@@ -41,4 +46,33 @@
 .linkText {
     text-decoration: none;
     color          : #eb4034;
+    white-space    : nowrap;
+    overflow       : hidden;
+    text-overflow: clip;
+}
+
+@media screen and (max-width: 1250px) {
+    .navBar {
+        display : block;
+        position: relative;
+        right   : 0;
+        width   : 713px;
+        margin  : 20px auto 0;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .navBar {
+        width  : 0;
+        opacity: 0;
+    }
+
+    .navItem {
+        font-size: 0;
+    }
+
+    .linkText {
+        opacity: 0;
+        pointer-events: none;
+    }
 }
