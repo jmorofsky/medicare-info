@@ -13,14 +13,14 @@ function Header() {
             <h1 className='title'>STUCK ON MEDICARE?</h1>
             <h2 className='subtitle'>LET'S FIGURE IT OUT TOGETHER</h2>
 
-            <p className='intro'>
-                I'm Meghan Morofsky and I've been helping people find a plan that fits their
-                needs for years. </p>
-            <p className='intro'>
-                I'll help you review all your Medicare options so you can make an
-                informed decision about your coverage.
-            </p>
-            <p className='intro'>Let's get started by clicking the button below!</p>
+            <p className='intro'><strong>
+                I'm Meghan Morofsky and I've been helping people find a plan that fits
+                their needs</strong></p>
+            <p className='intro'><strong>
+                for years. I'll help you review all your Medicare options so you can make an
+                informed</strong></p>
+            <p className='intro'><strong>decision about your coverage. Let's get started by
+                clicking the button below!</strong></p>
 
             <a href='#contact' className='contactButton'><strong>Get Started ➞</strong></a>
 
