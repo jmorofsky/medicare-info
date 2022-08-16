@@ -5,6 +5,11 @@ function Header() {
     return (
         <div className='header'>
             <img src={shader} alt='' className='shader'></img>
+
+            <div> </div>
+            <a href='tel:+19548496854' className='phone'><strong>
+                <div className='phone-img'>📞</div> (954) 849-6854</strong></a>
+
             <h1 className='title'>STUCK ON MEDICARE?</h1>
             <h2 className='subtitle'>LET'S FIGURE IT OUT TOGETHER</h2>
 
