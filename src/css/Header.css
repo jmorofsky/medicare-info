@@ -70,11 +70,11 @@
     color: #fff;
 }
 
-.phone {
+.phone-box {
     display: block;
     position: relative;
     z-index: 1;
-    color: #eb4034 !important;
+    color: #eb4034;
     background-color: #fff;
     border: none;
     border-radius: 10px;
@@ -90,7 +90,7 @@
     display: inline-block;
 }
 
-.phone:hover .phone-img {
+.phone-box:hover .phone-img {
     animation-name: ring;
     animation-duration: 0.75s;
     animation-iteration-count: infinite;

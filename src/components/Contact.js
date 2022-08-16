@@ -52,7 +52,7 @@ function Contact() {
                             style={{ color: '#575757' }}>
                             ✉ morofsky.meghan@yahoo.com
                         </a></p>
-                        <p className='hoursText'> 📍 2000 Banks Road Suite 209 Margate Florida 33063</p>
+                        <p className='hoursText'>📍 2000 Banks Road Suite 209 Margate Florida 33063</p>
                     </div>
                 </div>
             </div>
