@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# Meghan Explains Medicare - https://meghanexplainsmedicare.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An informational website created to help potential customers learn about Medicare, and how my client Meghan can help them.
 
-## Available Scripts
+After meeting with Meghan, we decided what the site needed to contain: an enticing splash screen, reasons why you should trust Meghan with your Medicare plans, information about Medicare parts, and a contact section.
 
-In the project directory, you can run:
+The styling needed to be clean and professional. Since most of the people looking into Medicare are older, the site also needed to accomodate an older audience's needs. This meant making text large and clearly legible, and with high contrast. The overall layout of the site was kept simple and minimalistic to help achieve this goal.
 
-### `npm start`
+![image](https://github.com/jmorofsky/medicare-info/assets/80358703/c4a156e0-321e-439e-83af-1d9d40622c0f)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Development
 
-### `npm test`
+The website was created with React, though not many React principles were needed during development. The site is a single page application with no moving parts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The majority of the development process was focused on perfecting the design and individual visual elements of the app.
 
-### `npm run build`
+Overall, I think the look and feel of the site came out great and is exactly what we were going for. The website looks clean, simplistic, and stylish. The transitions between sections add some flair without overdoing it. The backgrounds mostly consist of solid colors. Most importantly, the site looks professional while catering to the needs of an older audience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To create a working build on your local machine, first clone the repository to your device.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    git clone https://github.com/jmorofsky/medicare-info
 
-### `npm run eject`
+Navigate to the repository.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+    cd medicare-info
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install dependencies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    npm i
+    
+Start the development server.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    npm start
+    
+By default, the dev server is located on port 3000. You can access this server by typing
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    localhost:3000
+    
+into your desired web browser.
