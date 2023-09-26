@@ -4,7 +4,7 @@ An informational website created to help potential customers learn about Medicar
 
 After meeting with Meghan, we decided what the site needed to contain: an enticing splash screen, reasons why you should trust Meghan with your Medicare plans, information about Medicare parts, and a contact section.
 
-The styling needed to be clean and professional. Since most of the people looking into Medicare are older, the site also needed to accomodate an older audience's needs. This meant making text large and clearly legible, and with high contrast. The overall layout of the site was kept simple and minimalistic to help achieve this goal.
+The styling needed to be clean and professional. Since most of the people looking into Medicare are older, the site also needed to accommodate an older audience's needs. This meant making text large and clearly legible, and with high contrast. The overall layout of the site was kept simple and minimalistic to help achieve this goal.
 
 ![image](https://github.com/jmorofsky/medicare-info/assets/80358703/c4a156e0-321e-439e-83af-1d9d40622c0f)
 
